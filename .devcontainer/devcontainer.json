@@ -2,5 +2,22 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers/features/python:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "njpwerner.autodocstring",
+        "ms-python.black-formatter",
+        "ms-azuretools.vscode-docker",
+        "tamasfe.even-better-toml",
+        "GitHub.copilot",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "donjayamanne.python-environment-manager",
+        "charliermarsh.ruff",
+        "GitHub.copilot-chat"
+      ]
+    }
   }
 }
